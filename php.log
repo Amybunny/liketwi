@@ -1,0 +1,1423 @@
+[06-Nov-2019 00:32:01 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 18
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => ごはんたべよ
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [1] => Array
+        (
+            [m_id] => 12
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => うにいくらたらこ
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [2] => Array
+        (
+            [m_id] => 8
+            [from_user] => 21
+            [to_user] => 20
+            [msg] => ふぐ食べたい
+            [u_id] => 21
+            [username] => あーさん
+        )
+
+    [3] => Array
+        (
+            [m_id] => 7
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => さんまのおいしい季節です
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 00:33:05 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 18
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => ごはんたべよ
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [1] => Array
+        (
+            [m_id] => 12
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => うにいくらたらこ
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [2] => Array
+        (
+            [m_id] => 8
+            [from_user] => 21
+            [to_user] => 20
+            [msg] => ふぐ食べたい
+            [u_id] => 21
+            [username] => あーさん
+        )
+
+    [3] => Array
+        (
+            [m_id] => 7
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => さんまのおいしい季節です
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 00:34:29 Asia/Tokyo] デバッグ：$img:upload/a465796f507c326321e53dd80faefb0ed306fc3a.jpeg
+[06-Nov-2019 00:34:34 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 11
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => ううううう
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [1] => Array
+        (
+            [m_id] => 10
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => いいいいい
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [2] => Array
+        (
+            [m_id] => 9
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => あああああ
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [3] => Array
+        (
+            [m_id] => 4
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => わんわんわん
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [4] => Array
+        (
+            [m_id] => 3
+            [from_user] => 19
+            [to_user] => 20
+            [msg] => にゃんにゃんにゃん
+            [u_id] => 19
+            [username] => ぴ
+        )
+
+    [5] => Array
+        (
+            [m_id] => 2
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => やっほー
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [6] => Array
+        (
+            [m_id] => 1
+            [from_user] => 19
+            [to_user] => 20
+            [msg] => こんにちは
+            [u_id] => 19
+            [username] => ぴ
+        )
+
+)
+
+[06-Nov-2019 00:34:36 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 18
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => ごはんたべよ
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [1] => Array
+        (
+            [m_id] => 12
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => うにいくらたらこ
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [2] => Array
+        (
+            [m_id] => 8
+            [from_user] => 21
+            [to_user] => 20
+            [msg] => ふぐ食べたい
+            [u_id] => 21
+            [username] => あーさん
+        )
+
+    [3] => Array
+        (
+            [m_id] => 7
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => さんまのおいしい季節です
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 00:34:50 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 7
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => さんまのおいしい季節です
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [1] => Array
+        (
+            [m_id] => 8
+            [from_user] => 21
+            [to_user] => 20
+            [msg] => ふぐ食べたい
+            [u_id] => 21
+            [username] => あーさん
+        )
+
+    [2] => Array
+        (
+            [m_id] => 12
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => うにいくらたらこ
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [3] => Array
+        (
+            [m_id] => 18
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => ごはんたべよ
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 00:35:47 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 7
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => さんまのおいしい季節です
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [1] => Array
+        (
+            [m_id] => 8
+            [from_user] => 21
+            [to_user] => 20
+            [msg] => ふぐ食べたい
+            [u_id] => 21
+            [username] => あーさん
+        )
+
+    [2] => Array
+        (
+            [m_id] => 12
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => うにいくらたらこ
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [3] => Array
+        (
+            [m_id] => 18
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => ごはんたべよ
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 00:36:40 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 7
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => さんまのおいしい季節です
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [1] => Array
+        (
+            [m_id] => 8
+            [from_user] => 21
+            [to_user] => 20
+            [msg] => ふぐ食べたい
+            [u_id] => 21
+            [username] => あーさん
+        )
+
+    [2] => Array
+        (
+            [m_id] => 12
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => うにいくらたらこ
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [3] => Array
+        (
+            [m_id] => 18
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => ごはんたべよ
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 00:40:31 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 7
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => さんまのおいしい季節です
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [1] => Array
+        (
+            [m_id] => 8
+            [from_user] => 21
+            [to_user] => 20
+            [msg] => ふぐ食べたい
+            [u_id] => 21
+            [username] => あーさん
+        )
+
+    [2] => Array
+        (
+            [m_id] => 12
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => うにいくらたらこ
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [3] => Array
+        (
+            [m_id] => 18
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => ごはんたべよ
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 00:40:50 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 7
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => さんまのおいしい季節です
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [1] => Array
+        (
+            [m_id] => 8
+            [from_user] => 21
+            [to_user] => 20
+            [msg] => ふぐ食べたい
+            [u_id] => 21
+            [username] => あーさん
+        )
+
+    [2] => Array
+        (
+            [m_id] => 12
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => うにいくらたらこ
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [3] => Array
+        (
+            [m_id] => 18
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => ごはんたべよ
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 00:40:54 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 14
+            [from_user] => 20
+            [to_user] => 22
+            [msg] => まいけるさん
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 00:40:56 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 7
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => さんまのおいしい季節です
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [1] => Array
+        (
+            [m_id] => 8
+            [from_user] => 21
+            [to_user] => 20
+            [msg] => ふぐ食べたい
+            [u_id] => 21
+            [username] => あーさん
+        )
+
+    [2] => Array
+        (
+            [m_id] => 12
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => うにいくらたらこ
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [3] => Array
+        (
+            [m_id] => 18
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => ごはんたべよ
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 00:40:57 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 1
+            [from_user] => 19
+            [to_user] => 20
+            [msg] => こんにちは
+            [u_id] => 19
+            [username] => ぴ
+        )
+
+    [1] => Array
+        (
+            [m_id] => 2
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => やっほー
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [2] => Array
+        (
+            [m_id] => 3
+            [from_user] => 19
+            [to_user] => 20
+            [msg] => にゃんにゃんにゃん
+            [u_id] => 19
+            [username] => ぴ
+        )
+
+    [3] => Array
+        (
+            [m_id] => 4
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => わんわんわん
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [4] => Array
+        (
+            [m_id] => 9
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => あああああ
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [5] => Array
+        (
+            [m_id] => 10
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => いいいいい
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [6] => Array
+        (
+            [m_id] => 11
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => ううううう
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 00:42:29 Asia/Tokyo] デバッグ：ツイートした内容：おおおおお？おぉぉぉぉぉぉ！？！！！
+[06-Nov-2019 00:42:32 Asia/Tokyo] デバッグ：$t_id:39
+[06-Nov-2019 00:42:32 Asia/Tokyo] デバッグ：削除しました
+[06-Nov-2019 00:42:32 Asia/Tokyo] デバッグ：トップページへ遷移します
+[06-Nov-2019 00:42:32 Asia/Tokyo] デバッグ：$dataの中身：ツイートを削除しました
+[06-Nov-2019 00:42:34 Asia/Tokyo] デバッグ：$img:upload/a465796f507c326321e53dd80faefb0ed306fc3a.jpeg
+[06-Nov-2019 00:42:36 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 20
+    [email] => ooooo@ooooo.com
+    [username] => おー
+    [img] => upload/a465796f507c326321e53dd80faefb0ed306fc3a.jpeg
+)
+
+[06-Nov-2019 00:42:41 Asia/Tokyo] デバッグ：$img:upload/4ff30df128b3e19ca3c85a11c39bb469a9240327.png
+[06-Nov-2019 00:42:42 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 1
+            [from_user] => 19
+            [to_user] => 20
+            [msg] => こんにちは
+            [u_id] => 19
+            [username] => ぴ
+        )
+
+    [1] => Array
+        (
+            [m_id] => 2
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => やっほー
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [2] => Array
+        (
+            [m_id] => 3
+            [from_user] => 19
+            [to_user] => 20
+            [msg] => にゃんにゃんにゃん
+            [u_id] => 19
+            [username] => ぴ
+        )
+
+    [3] => Array
+        (
+            [m_id] => 4
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => わんわんわん
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [4] => Array
+        (
+            [m_id] => 9
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => あああああ
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [5] => Array
+        (
+            [m_id] => 10
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => いいいいい
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [6] => Array
+        (
+            [m_id] => 11
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => ううううう
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 00:42:44 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 14
+            [from_user] => 20
+            [to_user] => 22
+            [msg] => まいけるさん
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 00:42:52 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 14
+            [from_user] => 20
+            [to_user] => 22
+            [msg] => まいけるさん
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 00:42:52 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 14
+            [from_user] => 20
+            [to_user] => 22
+            [msg] => まいけるさん
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [1] => Array
+        (
+            [m_id] => 19
+            [from_user] => 20
+            [to_user] => 22
+            [msg] => やあ！
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 00:42:56 Asia/Tokyo] デバッグ：ログアウトします。
+[06-Nov-2019 00:42:56 Asia/Tokyo] デバッグ：ログアウトしました。ログインページへ遷移します。
+[06-Nov-2019 00:43:26 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [pass] => $2y$10$eco41e8tZUsWD2pGlb7yHedSe1EqddtTakRKA.VCOgpxolCus/ev6
+    [id] => 22
+)
+
+[06-Nov-2019 00:43:26 Asia/Tokyo] デバッグ：パスワードがマッチしました。
+[06-Nov-2019 00:43:26 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1572968606
+    [login_limit] => 3600
+    [user_id] => 22
+)
+
+[06-Nov-2019 00:43:26 Asia/Tokyo] デバッグ：トップページへ遷移します。
+[06-Nov-2019 00:44:07 Asia/Tokyo] デバッグ：ツイートした内容：やっほー！！！
+[06-Nov-2019 00:44:10 Asia/Tokyo] デバッグ：$t_id:40
+[06-Nov-2019 00:44:10 Asia/Tokyo] デバッグ：削除しました
+[06-Nov-2019 00:44:10 Asia/Tokyo] デバッグ：トップページへ遷移します
+[06-Nov-2019 00:44:10 Asia/Tokyo] デバッグ：$dataの中身：ツイートを削除しました
+[06-Nov-2019 00:44:15 Asia/Tokyo] デバッグ：$img:upload/4ff30df128b3e19ca3c85a11c39bb469a9240327.png
+[06-Nov-2019 00:44:17 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 17
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => ぴぴぴのぴ
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+)
+
+[06-Nov-2019 00:44:27 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 17
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => ぴぴぴのぴ
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+)
+
+[06-Nov-2019 00:44:27 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 17
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => ぴぴぴのぴ
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+    [1] => Array
+        (
+            [m_id] => 20
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => こんにちは！！！！！
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+)
+
+[06-Nov-2019 00:44:30 Asia/Tokyo] デバッグ：$img:
+[06-Nov-2019 00:44:34 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 22
+    [email] => rrrrr@rrrrr.com
+    [username] => りーちまいける
+    [img] => 
+)
+
+[06-Nov-2019 00:44:40 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 22
+    [email] => rrrrr@rrrrr.com
+    [username] => りーちまいける
+    [img] => 
+)
+
+[06-Nov-2019 00:44:40 Asia/Tokyo] 画像アップロード処理開始
+[06-Nov-2019 00:44:40 Asia/Tokyo] デバッグ：$file
+[06-Nov-2019 00:44:40 Asia/Tokyo] デバッグ：$file[error]
+[06-Nov-2019 00:44:40 Asia/Tokyo] OK
+[06-Nov-2019 00:44:40 Asia/Tokyo] ファイルは正常にアップロードされました
+[06-Nov-2019 00:44:40 Asia/Tokyo] デバッグ：トップページへ遷移します
+[06-Nov-2019 00:44:40 Asia/Tokyo] デバッグ：$dataの中身：プロフィールを変更しました
+[06-Nov-2019 00:44:42 Asia/Tokyo] デバッグ：$img:upload/363789457cc943ca21deb74def37d3d67f11a3b4.png
+[06-Nov-2019 00:44:44 Asia/Tokyo] デバッグ：ログアウトします。
+[06-Nov-2019 00:44:44 Asia/Tokyo] デバッグ：ログアウトしました。ログインページへ遷移します。
+[06-Nov-2019 00:45:32 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [pass] => $2y$10$eco41e8tZUsWD2pGlb7yHedSe1EqddtTakRKA.VCOgpxolCus/ev6
+    [id] => 22
+)
+
+[06-Nov-2019 00:45:32 Asia/Tokyo] デバッグ：パスワードがマッチしました。
+[06-Nov-2019 00:45:32 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1572968732
+    [login_limit] => 3600
+    [user_id] => 22
+)
+
+[06-Nov-2019 00:45:32 Asia/Tokyo] デバッグ：トップページへ遷移します。
+[06-Nov-2019 00:45:37 Asia/Tokyo] デバッグ：$img:upload/363789457cc943ca21deb74def37d3d67f11a3b4.png
+[06-Nov-2019 00:45:45 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 22
+    [email] => rrrrr@rrrrr.com
+    [username] => りーちまいける
+    [img] => upload/363789457cc943ca21deb74def37d3d67f11a3b4.png
+)
+
+[06-Nov-2019 00:46:32 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 22
+    [email] => rrrrr@rrrrr.com
+    [username] => りーちまいける
+    [img] => upload/363789457cc943ca21deb74def37d3d67f11a3b4.png
+)
+
+[06-Nov-2019 00:46:32 Asia/Tokyo] 画像アップロード処理開始
+[06-Nov-2019 00:46:32 Asia/Tokyo] デバッグ：$file
+[06-Nov-2019 00:46:32 Asia/Tokyo] デバッグ：$file[error]
+[06-Nov-2019 00:46:32 Asia/Tokyo] OK
+[06-Nov-2019 00:46:32 Asia/Tokyo] ファイルは正常にアップロードされました
+[06-Nov-2019 00:46:32 Asia/Tokyo] デバッグ：トップページへ遷移します
+[06-Nov-2019 00:46:32 Asia/Tokyo] デバッグ：$dataの中身：プロフィールを変更しました
+[06-Nov-2019 00:46:36 Asia/Tokyo] デバッグ：$img:upload/d9712411f55d692e3ba0d183407e5230b4cf71b3.jpeg
+[06-Nov-2019 00:47:16 Asia/Tokyo] デバッグ：ツイートした内容：たこ焼き大好き
+[06-Nov-2019 00:47:18 Asia/Tokyo] デバッグ：$img:upload/4ff30df128b3e19ca3c85a11c39bb469a9240327.png
+[06-Nov-2019 00:47:19 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 17
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => ぴぴぴのぴ
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+    [1] => Array
+        (
+            [m_id] => 20
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => こんにちは！！！！！
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+)
+
+[06-Nov-2019 00:47:26 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 17
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => ぴぴぴのぴ
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+    [1] => Array
+        (
+            [m_id] => 20
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => こんにちは！！！！！
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+)
+
+[06-Nov-2019 00:47:26 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 17
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => ぴぴぴのぴ
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+    [1] => Array
+        (
+            [m_id] => 20
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => こんにちは！！！！！
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+    [2] => Array
+        (
+            [m_id] => 21
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => げんき？
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+)
+
+[06-Nov-2019 00:47:28 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 17
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => ぴぴぴのぴ
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+    [1] => Array
+        (
+            [m_id] => 20
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => こんにちは！！！！！
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+    [2] => Array
+        (
+            [m_id] => 21
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => げんき？
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+)
+
+[06-Nov-2019 00:47:53 Asia/Tokyo] デバッグ：$t_id:41
+[06-Nov-2019 00:47:53 Asia/Tokyo] デバッグ：削除しました
+[06-Nov-2019 00:47:53 Asia/Tokyo] デバッグ：トップページへ遷移します
+[06-Nov-2019 00:47:53 Asia/Tokyo] デバッグ：$dataの中身：ツイートを削除しました
+[06-Nov-2019 00:48:06 Asia/Tokyo] デバッグ：ツイートした内容：たこ焼き大好き
+[06-Nov-2019 00:48:09 Asia/Tokyo] デバッグ：$t_id:42
+[06-Nov-2019 00:48:09 Asia/Tokyo] デバッグ：削除しました
+[06-Nov-2019 00:48:09 Asia/Tokyo] デバッグ：トップページへ遷移します
+[06-Nov-2019 00:48:09 Asia/Tokyo] デバッグ：$dataの中身：ツイートを削除しました
+[06-Nov-2019 00:48:13 Asia/Tokyo] デバッグ：$img:upload/4ff30df128b3e19ca3c85a11c39bb469a9240327.png
+[06-Nov-2019 00:48:14 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 17
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => ぴぴぴのぴ
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+    [1] => Array
+        (
+            [m_id] => 20
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => こんにちは！！！！！
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+    [2] => Array
+        (
+            [m_id] => 21
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => げんき？
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+)
+
+[06-Nov-2019 00:48:20 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 17
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => ぴぴぴのぴ
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+    [1] => Array
+        (
+            [m_id] => 20
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => こんにちは！！！！！
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+    [2] => Array
+        (
+            [m_id] => 21
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => げんき？
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+)
+
+[06-Nov-2019 00:48:20 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 17
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => ぴぴぴのぴ
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+    [1] => Array
+        (
+            [m_id] => 20
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => こんにちは！！！！！
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+    [2] => Array
+        (
+            [m_id] => 21
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => げんき？
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+    [3] => Array
+        (
+            [m_id] => 22
+            [from_user] => 22
+            [to_user] => 19
+            [msg] => やあ！
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+)
+
+[06-Nov-2019 00:48:21 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 14
+            [from_user] => 20
+            [to_user] => 22
+            [msg] => まいけるさん
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [1] => Array
+        (
+            [m_id] => 19
+            [from_user] => 20
+            [to_user] => 22
+            [msg] => やあ！
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 00:48:23 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 15
+            [from_user] => 21
+            [to_user] => 22
+            [msg] => いいね機能はあきらめました
+            [u_id] => 21
+            [username] => あーさん
+        )
+
+    [1] => Array
+        (
+            [m_id] => 16
+            [from_user] => 22
+            [to_user] => 21
+            [msg] => そうですか
+            [u_id] => 22
+            [username] => りーちまいける
+        )
+
+)
+
+[06-Nov-2019 00:48:27 Asia/Tokyo] デバッグ：ログアウトします。
+[06-Nov-2019 00:48:27 Asia/Tokyo] デバッグ：ログアウトしました。ログインページへ遷移します。
+[06-Nov-2019 00:54:53 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [pass] => $2y$10$sDwcQd160ipqHDfRRMnFB.N4fJFUFYVV7v58uRdXoAJPaUbmfDuqW
+    [id] => 20
+)
+
+[06-Nov-2019 00:54:53 Asia/Tokyo] デバッグ：パスワードがマッチしました。
+[06-Nov-2019 00:54:53 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1572969293
+    [login_limit] => 3600
+    [user_id] => 20
+)
+
+[06-Nov-2019 00:54:53 Asia/Tokyo] デバッグ：トップページへ遷移します。
+[06-Nov-2019 23:53:33 Asia/Tokyo] デバッグ：$img:upload/a465796f507c326321e53dd80faefb0ed306fc3a.jpeg
+[06-Nov-2019 23:53:36 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 20
+    [email] => ooooo@ooooo.com
+    [username] => おー
+    [img] => upload/a465796f507c326321e53dd80faefb0ed306fc3a.jpeg
+)
+
+[06-Nov-2019 23:53:38 Asia/Tokyo] デバッグ：$img:upload/a465796f507c326321e53dd80faefb0ed306fc3a.jpeg
+[06-Nov-2019 23:53:42 Asia/Tokyo] デバッグ：$img:upload/4ff30df128b3e19ca3c85a11c39bb469a9240327.png
+[06-Nov-2019 23:53:47 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 1
+            [from_user] => 19
+            [to_user] => 20
+            [msg] => こんにちは
+            [u_id] => 19
+            [username] => ぴ
+        )
+
+    [1] => Array
+        (
+            [m_id] => 2
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => やっほー
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [2] => Array
+        (
+            [m_id] => 3
+            [from_user] => 19
+            [to_user] => 20
+            [msg] => にゃんにゃんにゃん
+            [u_id] => 19
+            [username] => ぴ
+        )
+
+    [3] => Array
+        (
+            [m_id] => 4
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => わんわんわん
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [4] => Array
+        (
+            [m_id] => 9
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => あああああ
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [5] => Array
+        (
+            [m_id] => 10
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => いいいいい
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [6] => Array
+        (
+            [m_id] => 11
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => ううううう
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 23:53:50 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 14
+            [from_user] => 20
+            [to_user] => 22
+            [msg] => まいけるさん
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [1] => Array
+        (
+            [m_id] => 19
+            [from_user] => 20
+            [to_user] => 22
+            [msg] => やあ！
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 23:53:52 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 7
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => さんまのおいしい季節です
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [1] => Array
+        (
+            [m_id] => 8
+            [from_user] => 21
+            [to_user] => 20
+            [msg] => ふぐ食べたい
+            [u_id] => 21
+            [username] => あーさん
+        )
+
+    [2] => Array
+        (
+            [m_id] => 12
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => うにいくらたらこ
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [3] => Array
+        (
+            [m_id] => 18
+            [from_user] => 20
+            [to_user] => 21
+            [msg] => ごはんたべよ
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 23:53:54 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 1
+            [from_user] => 19
+            [to_user] => 20
+            [msg] => こんにちは
+            [u_id] => 19
+            [username] => ぴ
+        )
+
+    [1] => Array
+        (
+            [m_id] => 2
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => やっほー
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [2] => Array
+        (
+            [m_id] => 3
+            [from_user] => 19
+            [to_user] => 20
+            [msg] => にゃんにゃんにゃん
+            [u_id] => 19
+            [username] => ぴ
+        )
+
+    [3] => Array
+        (
+            [m_id] => 4
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => わんわんわん
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [4] => Array
+        (
+            [m_id] => 9
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => あああああ
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [5] => Array
+        (
+            [m_id] => 10
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => いいいいい
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [6] => Array
+        (
+            [m_id] => 11
+            [from_user] => 20
+            [to_user] => 19
+            [msg] => ううううう
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 23:53:55 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 14
+            [from_user] => 20
+            [to_user] => 22
+            [msg] => まいけるさん
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [1] => Array
+        (
+            [m_id] => 19
+            [from_user] => 20
+            [to_user] => 22
+            [msg] => やあ！
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 23:53:59 Asia/Tokyo] デバッグ：$viewmsg:Array
+(
+    [0] => Array
+        (
+            [m_id] => 14
+            [from_user] => 20
+            [to_user] => 22
+            [msg] => まいけるさん
+            [u_id] => 20
+            [username] => おー
+        )
+
+    [1] => Array
+        (
+            [m_id] => 19
+            [from_user] => 20
+            [to_user] => 22
+            [msg] => やあ！
+            [u_id] => 20
+            [username] => おー
+        )
+
+)
+
+[06-Nov-2019 23:54:01 Asia/Tokyo] デバッグ：$img:upload/a465796f507c326321e53dd80faefb0ed306fc3a.jpeg
