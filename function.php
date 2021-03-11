@@ -40,7 +40,7 @@ function validRequired($str,$key){
 //================================
 // セッション準備・セッション有効期限を延ばす
 //================================
-session_save_path("C:/var/tmp/"); 
+session_save_path("/var/tmp/"); 
 ini_set('session.gc_maxlifetime',60*60*24*30);
 ini_set('session.cookie_lifetime',60*60*24*30);
 session_start();
@@ -51,7 +51,7 @@ session_regenerate_id();
 //================================
 //DB接続関数
 function dbConnect(){
-  $dsn = 'mysql:dbname=otameshi;host=localhost;charset=utf8';
+  $dsn = 'mysql:dbname=liketwi;host=localhost;charset=utf8';
   $user = 'root';
   $password = 'root';
   $options = array(
@@ -292,6 +292,7 @@ function uploadImg($file,$key){
       }
 
       $path = 'upload/'.sha1_file($file['tmp_name']).image_type_to_extension($type);
+      debug('$path:'.print_r($path,true));
 
       if(!move_uploaded_file($file['tmp_name'],$path)){
         throw new RuntimeException('ファイル保存時にエラーが発生しました');
