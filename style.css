@@ -1,0 +1,573 @@
+body{
+    margin:0 auto;
+    width:1275px;
+}
+
+h1{
+    color:#14171a;
+    font-size:20px;
+    text-align: center;
+}
+
+
+/*===========================================*/
+/*共通*/
+/*===========================================*/
+
+.active:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+button, input, select, textarea {
+    font-family : inherit;
+    font-size   : 100%;
+}
+
+/*===========================================*/
+/*エラーメッセージ*/
+/*===========================================*/
+.err{
+    color:red;
+}
+.msg-area{
+    font-size:14px;
+    color:#F3332A;
+    height: 21px;
+}
+
+/*===========================================*/
+/*form*/
+/*===========================================*/
+input:focus::placeholder,
+textarea:focus::placeholder {
+    color: transparent;
+    transition: .1s;
+}
+
+input{
+    font-size:18px;
+    margin-bottom:15px;
+}
+
+.input-common {
+    width:100%;
+    height:60px;
+    border:1px solid #C7C8CE;
+    padding:10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.common-btn{
+    display:block;
+    background: #E74975;
+    opacity: 0.7;
+    border:none;
+    padding:8px 24px;
+    color:white;
+    float: right;
+    border-radius: 50px;
+}
+
+/*===========================================*/
+/*ユーザー登録&ログインページ*/
+/*===========================================*/
+.signup-area{
+    padding-top: 60px;
+}
+
+.login-area{
+    padding-top: 100px;
+}
+
+.common-h1{
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+
+.common-form{
+    width:400px;
+    margin: 0 auto;
+    display: block;
+    height:200px;
+}
+
+.common-btn{
+    margin-top: 25px;
+}
+
+/*===========================================*/
+/*トップページ*/
+/*===========================================*/
+/*全体*/
+/*=================================*/
+.mainPage{
+    display: flex;
+}
+/*サイドバー*/
+/*=================================*/
+.sidebar{
+    width:300px;
+    height:500px;
+    /* background-color:#F7F570; */
+    position: relative;
+}
+
+.title{
+    display: block;
+    text-decoration: none;
+    margin: 72px auto 20px auto;
+    font-size: 30px;
+    color: #E74975;
+}
+
+.sidebar-group{
+    width:170px;
+    height: 270px;
+    /* background-color: #f6f5f4; */
+    margin: 0 auto;
+    /* position: absolute;
+    top:50px;
+    left:50px; */
+    padding: 15px;
+}
+
+.sidebar-username{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0 20px 0;
+    color: #E74975;
+}
+
+.sidebar-img{
+    display: block;
+    width:110px;
+    height: 110px;
+    margin: 0 auto 20px auto;
+    border-radius: 50%;
+}
+
+.sidebar-link{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #5B676D;
+    margin: 10px;
+}
+
+.sidebar-link:hover{
+    text-decoration: underline;
+}
+
+.search-form{
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.search-area{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    font-size: 14px;
+    height: 30px;
+}
+
+.search-submit-btn{
+    float: right;
+    font-size: 14px;
+}
+
+/*真ん中*/
+/*=================================*/
+.mainPageCenter675{
+    width:675px;
+    /* background-color: #FFD6DC; */
+}
+/*ツイート編集エリア*/
+#tweet-edit-area{
+    width: 100%;
+    height:100px;
+    border:1px solid #C7C8CE;
+    padding:10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom:10px;
+    font-size:18px;
+    resize: none;
+}
+
+.tweet-form{
+    width:450px;
+    margin: 0 auto;
+    display: block;
+    height:200px;
+}
+
+.counter-text{
+    margin-top:0px;
+    margin-right: 0px;
+    width:320px;
+    display: inline-block;
+}
+
+.tweet-submit-btn{
+    margin-top: 0;
+}
+
+/*ツイートの表示方法*/
+.tweets{
+    width:500px;
+    height: 140px;
+    margin: 0 auto;
+    border:1px solid #C7C8CE;
+    position: relative;
+    border-radius: 5px;
+}
+
+/*トップエリア*/
+.top-area{
+    position: relative;
+}
+
+.delete{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: #C7C8CE;
+    text-decoration: none;
+    margin: 0;
+}
+
+#username{
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: #2A3439;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#username:hover{
+    text-decoration: underline;
+}
+
+/*投稿した文言*/
+#tweet{
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    padding: 5px;
+    color: #2A3439;
+}
+
+/*投稿日時*/
+.btm-area{
+    display: flex;
+}
+
+.btm-group{
+    position: relative;
+    bottom:5px;
+    font-size: 14px;
+    color:#C7C8CE;
+    display: flex;
+    height: 16px;
+    line-height: 16px;
+}
+
+.edit{
+    position: absolute;
+    left:10px;
+}
+
+.edit p{
+    margin:0px 5px;
+}
+
+.tweet-time{
+    position: absolute;
+    right:10px;
+}
+
+/*===========================================*/
+/*メッセージ*/
+/*===========================================*/
+
+.p_name{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color:#14171a;
+    display: block;
+    padding: 20px 0;
+}
+
+.p_name:hover{
+    background-color: #f6f6f6;
+    transition: 0.3s ease-in-out;
+
+}
+
+.msg-info{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    margin:15px 0 15px 30px;
+    height: 30px;
+}
+
+#msg-area{
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 600px;
+    padding: 15px;
+}
+
+#info-txt{
+    color:#5B676D;
+    text-align: center;
+    line-height: 565px;
+}
+
+.avatar{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-top: 14px;
+    border-radius: 50%;
+}
+
+.msg-left{
+    display: flex;
+}
+
+.msg-left .msg-inrTxt{
+    background: #f6f5f4;
+    color: #5B676D;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.msg-right{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.msg-right .msg-inrTxt{
+    background: #E74975;
+    color: #fefefe;
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.area-bord .msg-cnt.msg-left .msg-inrTxt > .triangle{
+    position: absolute;
+    left: -20px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 15px solid #f6f5f4;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.area-bord .msg-cnt.msg-right .msg-inrTxt > .triangle{
+    position: absolute;
+    right: -20px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 15px solid #e74975;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.area-send-msg{
+    margin-top: 30px;
+    width: 100%;
+}
+
+.msg-textarea{
+    width: 100%;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.sidebar-center{
+    width: 250px;
+    height: 630px;
+    overflow:scroll;
+    overflow-x: hidden;
+    margin-top: 60px;
+}
+
+.common-submit:hover{
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+
+
+/*===========================================*/
+/*パーソナルページ*/
+/*===========================================*/
+.prof-area{
+    width: 500px;
+    margin: 30px auto;
+    height: 100px;
+    position: relative;
+}
+
+.prof-img{
+    display:inline-block;
+    width: 70px;
+    border-radius: 50%;
+    margin: 0;
+    position: absolute;
+    bottom: 5px;
+    left:10px;
+}
+
+.prof-name{
+    font-size: 24px;
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+    margin: 0;
+}
+
+.prof-msg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+/*===========================================*/
+/*プロフィール編集*/
+/*===========================================*/
+.form-container{
+    width: 400px;
+    margin: 40px auto;
+}
+
+.imgDrop-container{
+    width: 300px;
+    margin: 40px auto 50px auto;
+}
+
+.img-label{
+    margin: 0;
+}
+
+.area-drop{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background: #f6f5f4;
+    position: relative;
+    text-align: center;
+    line-height: 300px;
+    color: #ccc;
+    box-sizing: border-box;
+}
+
+.input-file{
+    background: #efb0c9;
+    height: 300px;
+    width: 300px;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.prev-img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*===========================================
+  削除
+===========================================*/
+.delete-form{
+    margin: 100px auto;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    border:1px solid #e1e1e1;
+  }
+  
+.question{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.wrap{
+    display: flex;
+    width: 220px;
+    margin: 0 auto;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn:hover{
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.cansel-btn{
+    display: block;
+    background: #EEECF1;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    color:#58676d;
+}
+
+.submit-btn{
+    display: inline-block;
+    border: none;
+    background-color:rgba(231, 73, 117,1);
+    color: #fafafa;
+    border-radius: 50px;
+}
+
+
+
+
+
+/*===========================================
+  その他
+===========================================*/
+.msg-slide{
+    position: fixed;
+    top: 0;
+    width: 1275px;
+    height: 40px;
+    background: rgba(231, 73, 117,0.3);
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0;
+    color:#5b676d;
+}
+
