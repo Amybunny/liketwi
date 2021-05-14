@@ -1,6 +1,29 @@
 <?php 
 
 require('function.php');
+
+if(!empty($_GET["guest"])){
+  $email = "guest@guest.com";
+  $pass = "guest";
+
+  $dbh = dbConnect();
+  $data = array(':email' => $email);
+  $sql = 'SELECT pass,id  FROM users WHERE email = :email';
+  $stmt = queryPost($dbh , $data, $sql);
+  $result = $stmt->fetch(PDO::FETCH_ASSOC);
+
+  if(!empty($result) && password_verify($pass,array_shift($result))){
+    $sesLimit = 60*60;
+    $_SESSION['login_date'] = time();
+    $_SESSION['login_limit'] = $sesLimit;
+    $_SESSION['user_id'] = $result['id'];
+
+    header("Location:index.php");
+  }else{
+    header("Location:login.php");
+  }
+}
+
 if(!empty($_POST)){
   $email = $_POST['email'];
   $pass = $_POST['pass'];
@@ -24,6 +47,7 @@ if(!empty($_POST)){
 
       header("Location:index.php");
     }else{
+      header("Location:login.php");
     }
   }  
 }
@@ -39,6 +63,7 @@ if(!empty($_POST)){
     <title>ログイン</title>
 </head>
 <body>
+  <div class="common-btn active"><a href="login.php?guest=1">ゲストログイン</a></div>
   <div class="common-btn active"><a href="signup.php">登録する</a></div>
   <div class="login-area">
     <h1 class="common-h1">ログイン</h1>

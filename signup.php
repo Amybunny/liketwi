@@ -2,6 +2,8 @@
 
 require('function.php');
 
+var_dump($_GET);
+
 if(!empty($_POST)){
   $username = $_POST['username'];
   $email = $_POST['email'];
@@ -43,6 +45,7 @@ if(!empty($_POST)){
   <title>「いま」を伝えよう</title>
 </head>
 <body>
+  <div class="common-btn active"><a href="login.php?guest=1">ゲストログイン</a></div>
   <div class="common-btn active"><a href="login.php">ログイン</a></div>
   <div class="signup-area">
     <h1 class="common-h1">「いま」を伝えよう</h1>

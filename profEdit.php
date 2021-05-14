@@ -8,21 +8,26 @@ if(!empty($_SESSION['user_id'])){
 }
 
 if(!empty($_POST)){
-  $username = $_POST['username'];
-  $email = $_POST['email'];
-  $img= (!empty($_FILES['image']['name'])) ? uploadImg($_FILES['image'],'image') : '';
-  $img = ( empty($img) && !empty($dbFormData['img']) ) ? $dbFormData['img'] : $img;
-
-  $dbh = dbConnect();
-  $data = array(':u_name'=>$username, ':email'=>$email, ':img'=>$img, ':u_id'=>$dbFormData['id']);
-  $sql = 'UPDATE users SET username=:u_name, email=:email, img=:img where id =:u_id';
-  $stmt = queryPost($dbh, $data, $sql);
-
-  if($stmt){
-    $_SESSION['msg_success'] = SUC02;
+  if($_SESSION['user_id']==6){
     header("Location:index.php");
   }else{
+    $username = $_POST['username'];
+    $email = $_POST['email'];
+    $img= (!empty($_FILES['image']['name'])) ? uploadImg($_FILES['image'],'image') : '';
+    $img = ( empty($img) && !empty($dbFormData['img']) ) ? $dbFormData['img'] : $img;
+
+    $dbh = dbConnect();
+    $data = array(':u_name'=>$username, ':email'=>$email, ':img'=>$img, ':u_id'=>$dbFormData['id']);
+    $sql = 'UPDATE users SET username=:u_name, email=:email, img=:img where id =:u_id';
+    $stmt = queryPost($dbh, $data, $sql);
+
+    if($stmt){
+      $_SESSION['msg_success'] = SUC02;
+      header("Location:index.php");
+    }else{
+    } 
   }
+
 }
 
 ?>
@@ -61,11 +66,10 @@ if(!empty($_POST)){
           <input class="input-common" type="text" name="username" value="<?php echo getFormData('username'); ?>">
         </label>
       </div>
-
       <div class="form-container">
         <label>
           Email
-          <input class="input-common" type="text" name="email" value="<?php echo getFormData('email'); ?>">
+          <input class="input-common" type="text" name="email" value="<?php echo getFormData('email');?>">
         </label>
       </div>
 
