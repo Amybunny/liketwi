@@ -1,6 +1,6 @@
 body{
     margin:0 auto;
-    width:1275px;
+    /* width:1275px; */
 }
 
 h1{
@@ -68,6 +68,10 @@ input{
     color:white;
     float: right;
     border-radius: 50px;
+}
+.common-btn a{
+    color: white;
+    text-decoration: none;
 }
 
 /*===========================================*/
@@ -449,6 +453,8 @@ input{
     right: 0;
     bottom: 0;
     margin: 0;
+    text-decoration: none;
+    color:#e74975;
 }
 
 /*===========================================*/

@@ -5,7 +5,6 @@ require('auth.php');
 
 if(!empty($_SESSION['user_id'])){
   $dbFormData = getUser($_SESSION['user_id']);
-  debug('取得したユーザー情報：'.print_r($dbFormData,true));
 }
 
 if(!empty($_POST)){
@@ -21,10 +20,8 @@ if(!empty($_POST)){
 
   if($stmt){
     $_SESSION['msg_success'] = SUC02;
-    debug('トップページへ遷移します');
     header("Location:index.php");
   }else{
-    debug('プロ編失敗');
   }
 }
 
@@ -34,6 +31,8 @@ if(!empty($_POST)){
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" type="text/css">
   <title>プロフィール編集</title>
 </head>

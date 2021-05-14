@@ -29,7 +29,6 @@ if(!empty($_GET)){
 
 if(!empty($_POST)){
   $msg = $_POST['send-msg'];
-
   if(!empty($msg)){
     $dbh = dbConnect();
     $data = array(':b_id'=>$b_id, ':my_id'=>$_SESSION['user_id'], ':y_id'=>$y_id, ':msg'=>$msg);
@@ -40,15 +39,14 @@ if(!empty($_POST)){
       header("Location:".$_SERVER['PHP_SELF'].'?b_id='.$b_id);
     }
   }
-  
 }
-
 ?>
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" type="text/css">
   <title>メッセージ</title>
 </head>
@@ -66,13 +64,9 @@ if(!empty($_POST)){
     </section>
 
     <section class="sidebar sidebar-center">
-      <?php 
-        foreach($index as $key => $val):
-      ?>
+      <?php foreach($index as $key => $val):?>
         <a class="p_name" href="msg.php?b_id=<?php echo $val['id']; ?>"><?php echo $val['username']; ?></a>
-      <?php 
-        endforeach;
-      ?>
+      <?php endforeach;?>
     </section>
 
     <!--メイン-->
@@ -131,7 +125,7 @@ if(!empty($_POST)){
       <form method="post" class="area-send-msg">
         <?php if(!empty($b_id)): ?>
         <textarea name="send-msg" class="msg-textarea"></textarea>
-        <input type="submit" value="送信" class="common-btn">
+        <input type="submit" value="送信" class="common-btn active">
         <?php endif; ?>
       </form>
 

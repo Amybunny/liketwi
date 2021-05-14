@@ -1,28 +1,28 @@
 <?php 
-
 require('function.php');
 require('auth.php');
-
 $username = getName($_SESSION['user_id']);
-
+$pflg = $_GET['pflg'];
+$redirect = "Location:personalpage.php?u_id=".$_SESSION['user_id'];
 if(!empty($_POST)){
   $t_id = $_POST['delete'];
-  debug('$t_id:'.print_r($t_id,true));
   $deleteFlg = deleteTweet($t_id);
   if($deleteFlg){
-    debug('削除しました');
-    debug('トップページへ遷移します');
     $_SESSION['msg_success'] = SUC01;
-    header("Location:index.php");
+    if($pflg){
+      header($redirect);
+    }else{
+      header("Location:index.php");
+    }
   }
 }
-
 ?>
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" type="text/css">
   <title>削除ページ</title>
 </head>
@@ -44,7 +44,11 @@ if(!empty($_POST)){
         <p class="question">本当に削除しますか？</p>
         <form class="wrap" action="" method="post">
           <input type="hidden" name="delete" value="<?php echo $_GET['t_id']; ?>">
-          <a href="index.php" class="btn cansel-btn">キャンセル</a>
+          <?php if($pflg):?>
+            <a href="personalpage.php?u_id=<?php echo $_SESSION['user_id']?>" class="btn cansel-btn">キャンセル</a>
+          <?php else :?>
+            <a href="index.php" class="btn cansel-btn">キャンセル</a>
+          <?php endif; ?>
           <input class="btn submit-btn" type="submit" value="削除">
         </form>
       </div>

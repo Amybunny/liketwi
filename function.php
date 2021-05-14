@@ -96,7 +96,7 @@ function getTweet(){
 function getPersonalTweet($u_id){
   $dbh = dbConnect();
   $data = array(':u_id' => $u_id);
-  $sql = 'SELECT users.id as u_id, tweet,tweet_time,username from twitter join users on twitter.u_id = users.id where u_id = :u_id';
+  $sql = 'SELECT users.id as u_id,twitter.id as t_id , tweet,tweet_time,username from twitter join users on twitter.u_id = users.id where u_id = :u_id';
   $stmt = queryPost($dbh, $data, $sql);
   return $stmt->fetchAll();
 }
