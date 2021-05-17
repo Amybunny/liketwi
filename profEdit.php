@@ -1,14 +1,12 @@
 <?php 
-
 require('function.php');
 require('auth.php');
-
 if(!empty($_SESSION['user_id'])){
   $dbFormData = getUser($_SESSION['user_id']);
 }
-
 if(!empty($_POST)){
-  if($_SESSION['user_id']==6){
+  if($_SESSION['user_id']==1){
+    $_SESSION['msg_success'] = SUC02;
     header("Location:index.php");
   }else{
     $username = $_POST['username'];
@@ -27,11 +25,8 @@ if(!empty($_POST)){
     }else{
     } 
   }
-
 }
-
 ?>
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -42,9 +37,7 @@ if(!empty($_POST)){
   <title>プロフィール編集</title>
 </head>
 <body>
-
   <main class="mainPage">
-
     <!--サイドバー左-->
     <section class="sidebar sidebar-left">
     <h1><a class="title" href="index.php">Like Twi</a></h1>
@@ -54,12 +47,10 @@ if(!empty($_POST)){
       <a class="sidebar-link" href="msg.php">メッセージ</a>
     </div>
     </section>
-
     <!--真ん中-->
     <form method="post" class="mainPageCenter675" enctype="multipart/form-data">
       <br>
       <h1>プロフィール編集</h1>
-
       <div class="form-container">
         <label>
           名前
@@ -72,7 +63,6 @@ if(!empty($_POST)){
           <input class="input-common" type="text" name="email" value="<?php echo getFormData('email');?>">
         </label>
       </div>
-
       <div class="imgDrop-container">
         <p class="img-label">画像</p>
         <label class="area-drop">
@@ -82,18 +72,12 @@ if(!empty($_POST)){
           ドラッグ＆ドロップ
         </label>
       </div>
-
       <div class="form-container">
-        <input class="common-btn" type="submit" value="変更する">
+        <input class="common-btn active" type="submit" value="変更する">
       <div class="form-container">
-
     </form>
-
   </main>
-
-
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="jquery-3.4.1.min.js"></script>
 <script src="main.js"></script>
 </body>
 </html>
